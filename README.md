@@ -1,6 +1,8 @@
 # Sequence Models And Machine Translation
 
-The syntax of a natural language, similar to the syntax of a programming language involves the arrangement of tokens into meaningful groups. Phrasal chunking is the task of finding non-recursive syntactic groups of words.
+The syntax of a natural language, similar to the syntax of a programming language involves the arrangement of tokens into meaningful groups. Phrasal chunking is the task of finding non-recursive syntactic groups of words. For example, the sentence:
+
+![Example](Screenshot 2023-01-22 at 4.53.37 PM)
 
 ## Data Set
 
@@ -12,7 +14,7 @@ Here is an example of the file format:
 
 ![data](./images/data.png)
 
-## Documentation 
+## Documentation
 
 The biggest change we made was through the semi-character RNN. As instructed for the baseline solution, we implemented this model to deal with noisy inputs. character_level_representation() is the baseline solution which simply creates 3 100 dimensional vectors. The first vector encodes the first character, the last vector encodes the last character, and the 3rd vector stores the character counts of all the other characters in between. Our second experimental implementation called character_level_representation_v2() was an extension of that work. In this function, we are extending that idea to encode the second, and second-to-last characters in their own vectors. </br> </br>
 
