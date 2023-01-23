@@ -2,7 +2,7 @@
 
 The syntax of a natural language, similar to the syntax of a programming language involves the arrangement of tokens into meaningful groups. Phrasal chunking is the task of finding non-recursive syntactic groups of words. For example, the sentence:
 
-![Example](Screenshot 2023-01-22 at 4.53.37 PM)
+![Example](./images/example)
 
 ## Data Set
 
